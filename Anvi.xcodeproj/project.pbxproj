@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1F5A24001AB4C8193D6E2A1 /* FSRS in Frameworks */ = {isa = PBXBuildFile; productRef = A1F5A24001AB4C8193D6E2A2 /* FSRS */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D5068E7307F2BEB00ED443B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D5068D1307F2BEA00ED443B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D5068D8307F2BEA00ED443B;
+			remoteInfo = Anvi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D5068D9307F2BEA00ED443B /* Anvi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anvi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5068E6307F2BEB00ED443B /* AnviTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnviTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5D5068DB307F2BEA00ED443B /* Anvi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Anvi;
+			sourceTree = "<group>";
+		};
+		5D5068E9307F2BEB00ED443B /* AnviTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AnviTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D5068D6307F2BEA00ED443B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F5A24001AB4C8193D6E2A1 /* FSRS in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5068E3307F2BEB00ED443B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D5068D0307F2BEA00ED443B = {
+			isa = PBXGroup;
+			children = (
+				5D5068DB307F2BEA00ED443B /* Anvi */,
+				5D5068E9307F2BEB00ED443B /* AnviTests */,
+				5D5068DA307F2BEA00ED443B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D5068DA307F2BEA00ED443B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D5068D9307F2BEA00ED443B /* Anvi.app */,
+				5D5068E6307F2BEB00ED443B /* AnviTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D5068D8307F2BEA00ED443B /* Anvi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5068FA307F2BEB00ED443B /* Build configuration list for PBXNativeTarget "Anvi" */;
+			buildPhases = (
+				5D5068D5307F2BEA00ED443B /* Sources */,
+				5D5068D6307F2BEA00ED443B /* Frameworks */,
+				5D5068D7307F2BEA00ED443B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5D5068DB307F2BEA00ED443B /* Anvi */,
+			);
+			name = Anvi;
+			packageProductDependencies = (
+				A1F5A24001AB4C8193D6E2A2 /* FSRS */,
+			);
+			productName = Anvi;
+			productReference = 5D5068D9307F2BEA00ED443B /* Anvi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D5068E5307F2BEB00ED443B /* AnviTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5068FD307F2BEB00ED443B /* Build configuration list for PBXNativeTarget "AnviTests" */;
+			buildPhases = (
+				5D5068E2307F2BEB00ED443B /* Sources */,
+				5D5068E3307F2BEB00ED443B /* Frameworks */,
+				5D5068E4307F2BEB00ED443B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D5068E8307F2BEB00ED443B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5D5068E9307F2BEB00ED443B /* AnviTests */,
+			);
+			name = AnviTests;
+			packageProductDependencies = (
+			);
+			productName = AnviTests;
+			productReference = 5D5068E6307F2BEB00ED443B /* AnviTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D5068D1307F2BEA00ED443B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					5D5068D8307F2BEA00ED443B = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					5D5068E5307F2BEB00ED443B = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 5D5068D8307F2BEA00ED443B;
+					};
+				};
+			};
+			buildConfigurationList = 5D5068D4307F2BEA00ED443B /* Build configuration list for PBXProject "Anvi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-BR",
+				ja,
+			);
+			mainGroup = 5D5068D0307F2BEA00ED443B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A1F5A24001AB4C8193D6E2A3 /* XCRemoteSwiftPackageReference "swift-fsrs" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5D5068DA307F2BEA00ED443B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D5068D8307F2BEA00ED443B /* Anvi */,
+				5D5068E5307F2BEB00ED443B /* AnviTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D5068D7307F2BEA00ED443B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5068E4307F2BEB00ED443B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D5068D5307F2BEA00ED443B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5068E2307F2BEB00ED443B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D5068E8307F2BEB00ED443B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D5068D8307F2BEA00ED443B /* Anvi */;
+			targetProxy = 5D5068E7307F2BEB00ED443B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5D5068F8307F2BEB00ED443B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D5068F9307F2BEB00ED443B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5D5068FB307F2BEB00ED443B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Anvi;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 cauerast. Free software under the GNU GPL v3.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cauerast.Anvi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5D5068FC307F2BEB00ED443B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Anvi;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 cauerast. Free software under the GNU GPL v3.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cauerast.Anvi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5D5068FE307F2BEB00ED443B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cauerast.AnviTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anvi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Anvi";
+			};
+			name = Debug;
+		};
+		5D5068FF307F2BEB00ED443B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cauerast.AnviTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anvi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Anvi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D5068D4307F2BEA00ED443B /* Build configuration list for PBXProject "Anvi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5068F8307F2BEB00ED443B /* Debug */,
+				5D5068F9307F2BEB00ED443B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5068FA307F2BEB00ED443B /* Build configuration list for PBXNativeTarget "Anvi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5068FB307F2BEB00ED443B /* Debug */,
+				5D5068FC307F2BEB00ED443B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5068FD307F2BEB00ED443B /* Build configuration list for PBXNativeTarget "AnviTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5068FE307F2BEB00ED443B /* Debug */,
+				5D5068FF307F2BEB00ED443B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A1F5A24001AB4C8193D6E2A3 /* XCRemoteSwiftPackageReference "swift-fsrs" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/open-spaced-repetition/swift-fsrs";
+			requirement = {
+				kind = revision;
+				revision = 4fbaf20184d62f82a9f44f343337c61a2c5483e9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1F5A24001AB4C8193D6E2A2 /* FSRS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1F5A24001AB4C8193D6E2A3 /* XCRemoteSwiftPackageReference "swift-fsrs" */;
+			productName = FSRS;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5D5068D1307F2BEA00ED443B /* Project object */;
+}
